@@ -33,7 +33,7 @@ For different alpha parameters, Mean Absolute Error and Mean Squared Error
     Alpha: 10.0, MSE for Y2: 11.1643, MAE for Y2: 2.4535
 
 
-After using grid search with 10-fold 10-repeat cross validation, the optimal values of Y1 and Y2
+After using grid search with 10-fold cross validation with 10 repetetion, the optimal values of Y1 and Y2
 
     Optimal alpha for Y1 (Heating Load): 0.001
     Optimal alpha for Y2 (Cooling Load): 0.001
@@ -64,7 +64,7 @@ During prediction, the random forest algorithm aggregates the predictions from a
 Random forests have several advantages over individual decision trees, including improved accuracy, reduced overfitting, and better generalization to new data. The use of multiple trees in a random forest enable us smooth the noise and variability in the data, which can improve the robustness and accuracy of the predictions.
 
 
- After using grid search with 10-fold 10-repeat cross validation, the optimal values of Y1 and Y2
+ After using grid search with 10-fold cross validation with 10 repetetion, the optimal values of Y1 and Y2
 
     Optimal parameters for Y1 (Heating Load):
     {'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
